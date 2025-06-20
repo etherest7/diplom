@@ -1,0 +1,45 @@
+2025-06-19T19:06:50.958965100Z main INFO Starting configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z]...
+2025-06-19T19:06:50.960964300Z main INFO Start watching for changes to jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml every 0 seconds
+2025-06-19T19:06:50.960964300Z main INFO Configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z] started.
+2025-06-19T19:06:50.963963300Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f...
+2025-06-19T19:06:50.963963300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f stopped.
+2025-06-19T22:06:50.999936 Protocol Server starting. 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-06-20T13:14:27.036572Z main INFO Starting configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z]...
+2025-06-20T13:14:27.038573100Z main INFO Start watching for changes to jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml every 0 seconds
+2025-06-20T13:14:27.038573100Z main INFO Configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z] started.
+2025-06-20T13:14:27.039572100Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f...
+2025-06-20T13:14:27.039572100Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f stopped.
+2025-06-20T16:14:27.069572900 Protocol Server starting. 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-06-20T13:17:43.334854Z main INFO Starting configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z]...
+2025-06-20T13:17:43.335853200Z main INFO Start watching for changes to jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml every 0 seconds
+2025-06-20T13:17:43.335853200Z main INFO Configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z] started.
+2025-06-20T13:17:43.336853300Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f...
+2025-06-20T13:17:43.336853300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f stopped.
+2025-06-20T16:17:43.364390900 Protocol Server starting. 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-06-20T13:42:31.744656500Z main INFO Starting configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z]...
+2025-06-20T13:42:31.745657700Z main INFO Start watching for changes to jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml every 0 seconds
+2025-06-20T13:42:31.745657700Z main INFO Configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z] started.
+2025-06-20T13:42:31.747660900Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f...
+2025-06-20T13:42:31.747660900Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f stopped.
+2025-06-20T16:42:31.777747300 Protocol Server starting. 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-06-20T13:44:22.646860500Z main INFO Starting configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z]...
+2025-06-20T13:44:22.647860400Z main INFO Start watching for changes to jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml every 0 seconds
+2025-06-20T13:44:22.647860400Z main INFO Configuration XmlConfiguration[location=jar:file:/C:/Program%20Files/Tableau/Tableau%202025.2/bin/jdbcserver.jar!/log4j2.xml, lastModified=1970-01-01T00:00:00Z] started.
+2025-06-20T13:44:22.648862300Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f...
+2025-06-20T13:44:22.648862300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@4524411f stopped.
+2025-06-20T16:44:22.677389300 Protocol Server starting. 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

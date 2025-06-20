@@ -1,0 +1,25 @@
+[2025-06-15T19:38:43.754+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-15T19:38:43.771+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: from_csv_to_pg.normalize_and_insert manual__2025-06-15T19:38:40.481207+00:00 [queued]>
+[2025-06-15T19:38:43.776+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: from_csv_to_pg.normalize_and_insert manual__2025-06-15T19:38:40.481207+00:00 [queued]>
+[2025-06-15T19:38:43.777+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-15T19:38:43.785+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): normalize_and_insert> on 2025-06-15 19:38:40.481207+00:00
+[2025-06-15T19:38:43.791+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=101) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-06-15T19:38:43.793+0000] {standard_task_runner.py:72} INFO - Started process 103 to run task
+[2025-06-15T19:38:43.793+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'from_csv_to_pg', 'normalize_and_insert', 'manual__2025-06-15T19:38:40.481207+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/from_csv_to_postgre.py', '--cfg-path', '/tmp/tmpg3pv2n4i']
+[2025-06-15T19:38:43.795+0000] {standard_task_runner.py:105} INFO - Job 62: Subtask normalize_and_insert
+[2025-06-15T19:38:43.981+0000] {task_command.py:467} INFO - Running <TaskInstance: from_csv_to_pg.normalize_and_insert manual__2025-06-15T19:38:40.481207+00:00 [running]> on host 19a85dc332e9
+[2025-06-15T19:38:44.031+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='from_csv_to_pg' AIRFLOW_CTX_TASK_ID='normalize_and_insert' AIRFLOW_CTX_EXECUTION_DATE='2025-06-15T19:38:40.481207+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-15T19:38:40.481207+00:00'
+[2025-06-15T19:38:44.032+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-15T19:38:44.054+0000] {warnings.py:112} WARNING - /opt/***/dags/from_csv_to_postgre.py:23: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_json(raw_data, orient='records')
+
+[2025-06-15T19:38:44.083+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-06-15T19:38:44.083+0000] {base.py:84} INFO - Retrieving connection 'dwh_***'
+[2025-06-15T19:38:44.592+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-15T19:38:44.601+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-15T19:38:44.602+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=from_csv_to_pg, task_id=normalize_and_insert, run_id=manual__2025-06-15T19:38:40.481207+00:00, execution_date=20250615T193840, start_date=20250615T193843, end_date=20250615T193844
+[2025-06-15T19:38:44.649+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-15T19:38:44.663+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-15T19:38:44.665+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

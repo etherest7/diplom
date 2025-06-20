@@ -1,0 +1,230 @@
+[2025-06-16T18:29:21.305+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-16T18:29:21.320+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_quality_dag.extract_load_data_quality manual__2025-06-16T18:29:20.437463+00:00 [queued]>
+[2025-06-16T18:29:21.327+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_quality_dag.extract_load_data_quality manual__2025-06-16T18:29:20.437463+00:00 [queued]>
+[2025-06-16T18:29:21.328+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-06-16T18:29:21.339+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_load_data_quality> on 2025-06-16 18:29:20.437463+00:00
+[2025-06-16T18:29:21.346+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=907) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-06-16T18:29:21.348+0000] {standard_task_runner.py:72} INFO - Started process 908 to run task
+[2025-06-16T18:29:21.347+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'data_quality_dag', 'extract_load_data_quality', 'manual__2025-06-16T18:29:20.437463+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/data_quality_dag.py', '--cfg-path', '/tmp/tmpeyzj1048']
+[2025-06-16T18:29:21.348+0000] {standard_task_runner.py:105} INFO - Job 77: Subtask extract_load_data_quality
+[2025-06-16T18:29:21.415+0000] {task_command.py:467} INFO - Running <TaskInstance: data_quality_dag.extract_load_data_quality manual__2025-06-16T18:29:20.437463+00:00 [running]> on host 19a85dc332e9
+[2025-06-16T18:29:21.483+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_quality_dag' AIRFLOW_CTX_TASK_ID='extract_load_data_quality' AIRFLOW_CTX_EXECUTION_DATE='2025-06-16T18:29:20.437463+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-16T18:29:20.437463+00:00'
+[2025-06-16T18:29:21.483+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-16T18:29:21.495+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-06-16T18:29:21.496+0000] {base.py:84} INFO - Retrieving connection 'dwh_***'
+[2025-06-16T18:29:21.500+0000] {sql.py:511} INFO - Running statement: 
+select 'diplom.sales' "table", 'Полнота' criteria, 
+	'Заполнение поля "product_id" должно быть обязательным' "rule",
+	'100' goal,
+	s_product_id_fullness fact 
+from(
+	select
+	(1- ((select count(*) from diplom.sales where product_id is null) 
+		/ (select count(*) from diplom.sales))) * 100 s_product_id_fullness
+) s_product_id_fullness
+
+union
+
+select 'diplom.sales' "table", 'Уникальность' criteria, 
+	'Поле "invoice_id" должно быть уникальным' "rule",
+	'100' goal,
+	s_invoice_id_unique fact
+from(
+	select(
+		(select sum(count)
+		from(
+			select invoice_id,  count(invoice_id) from diplom.sales group by invoice_id having count(invoice_id) = 1
+			) id_1_count
+		)
+		/ 
+		(select count(*) from diplom.sales)
+	) * 100 s_invoice_id_unique
+) s_invoice_id_unique
+
+union
+
+select 'diplom.sales' "table", 'Валидность' criteria, 
+	'Значение в поле "rating" не должно быть больше 10' "rule",
+	'100' goal,
+	s_rating_valid fact 
+from(
+	select
+	(1- ((select count(*) from diplom.sales where rating > 10) 
+		/ (select count(*) from diplom.sales))) * 100 s_rating_valid
+) s_rating_valid
+
+, parameters: None
+[2025-06-16T18:29:21.506+0000] {sql.py:520} INFO - Rows affected: 3
+[2025-06-16T18:29:21.507+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:470: DeprecationWarning: Import of fetch_all_handler from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+  result = self._make_common_data_structure(handler(cur))
+
+[2025-06-16T18:29:21.508+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:471: DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+  if return_single_query_results(sql, return_last, split_statements):
+
+[2025-06-16T18:29:21.509+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:486: DeprecationWarning: Import of return_single_query_results from the '***.providers.common.sql.hooks' module is deprecated and will
+be removed in the future. Please import it from '***.providers.common.sql.hooks.handlers'.
+  if return_single_query_results(sql, return_last, split_statements):
+
+[2025-06-16T18:29:21.537+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 203, in write_items
+    buf.write(s.pack(*items))
+              ^^^^^^^^^^^^^^
+struct.error: required argument is not a float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/service.py", line 167, in write_column
+    column.write_data(items, buf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 145, in write_data
+    self._write_data(items, buf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 149, in _write_data
+    self.write_items(prepared, buf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 206, in write_items
+    raise exceptions.StructPackException(e)
+clickhouse_driver.columns.exceptions.StructPackException: required argument is not a float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_quality_dag.py", line 86, in from_pg_load
+    ch_client.execute(insert_query, records)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 376, in execute
+    rv = self.process_insert_query(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 607, in process_insert_query
+    rv = self.send_data(sample_block, data,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 660, in send_data
+    self.connection.send_data(block)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 688, in send_data
+    self.block_out.write(block)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/streams/native.py", line 48, in write
+    write_column(self.context, col_name, col_type, items,
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/service.py", line 179, in write_column
+    raise errors.TypeMismatchError(
+clickhouse_driver.errors.TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column goal: required argument is not a float
+[2025-06-16T18:29:21.553+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=data_quality_dag, task_id=extract_load_data_quality, run_id=manual__2025-06-16T18:29:20.437463+00:00, execution_date=20250616T182920, start_date=20250616T182921, end_date=20250616T182921
+[2025-06-16T18:29:21.578+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-16T18:29:21.578+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 77 for task extract_load_data_quality (Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column goal: required argument is not a float; 908)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 203, in write_items
+    buf.write(s.pack(*items))
+              ^^^^^^^^^^^^^^
+struct.error: required argument is not a float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/service.py", line 167, in write_column
+    column.write_data(items, buf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 145, in write_data
+    self._write_data(items, buf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 149, in _write_data
+    self.write_items(prepared, buf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/base.py", line 206, in write_items
+    raise exceptions.StructPackException(e)
+clickhouse_driver.columns.exceptions.StructPackException: required argument is not a float
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_quality_dag.py", line 86, in from_pg_load
+    ch_client.execute(insert_query, records)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 376, in execute
+    rv = self.process_insert_query(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 607, in process_insert_query
+    rv = self.send_data(sample_block, data,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/client.py", line 660, in send_data
+    self.connection.send_data(block)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/connection.py", line 688, in send_data
+    self.block_out.write(block)
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/streams/native.py", line 48, in write
+    write_column(self.context, col_name, col_type, items,
+  File "/home/airflow/.local/lib/python3.12/site-packages/clickhouse_driver/columns/service.py", line 179, in write_column
+    raise errors.TypeMismatchError(
+clickhouse_driver.errors.TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column goal: required argument is not a float
+[2025-06-16T18:29:21.604+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-06-16T18:29:21.621+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-16T18:29:21.622+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

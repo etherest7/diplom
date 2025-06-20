@@ -1,0 +1,162 @@
+[2025-06-15T12:56:33.320+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:56:33.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:56:33.324+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:56:33.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:56:35.358+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:56:35.353+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:56:35.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:56:35.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 2.058 seconds
+[2025-06-15T12:57:05.494+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:57:05.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:57:05.497+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:57:05.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:57:06.826+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:57:06.822+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:57:06.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:57:06.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.353 seconds
+[2025-06-15T12:57:37.014+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:57:37.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:57:37.017+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:57:37.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:57:38.418+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:57:38.415+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:57:38.420+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:57:38.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.431 seconds
+[2025-06-15T12:58:08.636+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:58:08.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:58:08.641+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:58:08.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:58:09.940+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:58:09.936+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:58:09.941+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:58:09.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.325 seconds
+[2025-06-15T12:58:40.129+0000] {processor.py:186} INFO - Started process (PID=345) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:58:40.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:58:40.132+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:58:40.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:58:41.226+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:58:41.222+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:58:41.227+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:58:41.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.117 seconds
+[2025-06-15T12:59:11.291+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:59:11.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:59:11.293+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:59:11.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:59:12.569+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:59:12.566+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:59:12.570+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:59:12.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.297 seconds
+[2025-06-15T12:59:42.744+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/try.py
+[2025-06-15T12:59:42.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T12:59:42.747+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:59:42.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T12:59:43.988+0000] {logging_mixin.py:190} INFO - [2025-06-15T12:59:43.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T12:59:43.989+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T12:59:44.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.262 seconds
+[2025-06-15T13:00:14.177+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/try.py
+[2025-06-15T13:00:14.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T13:00:14.179+0000] {logging_mixin.py:190} INFO - [2025-06-15T13:00:14.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T13:00:15.474+0000] {logging_mixin.py:190} INFO - [2025-06-15T13:00:15.470+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T13:00:15.475+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T13:00:15.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.326 seconds
+[2025-06-15T13:00:45.670+0000] {processor.py:186} INFO - Started process (PID=377) to work on /opt/airflow/dags/try.py
+[2025-06-15T13:00:45.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/try.py for tasks to queue
+[2025-06-15T13:00:45.673+0000] {logging_mixin.py:190} INFO - [2025-06-15T13:00:45.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/try.py
+[2025-06-15T13:00:46.933+0000] {logging_mixin.py:190} INFO - [2025-06-15T13:00:46.930+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/try.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/try.py", line 22, in <module>
+    download_csv()
+  File "/opt/airflow/dags/try.py", line 17, in download_csv
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://example.com/yourfile.csv
+[2025-06-15T13:00:46.934+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/try.py
+[2025-06-15T13:00:46.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/try.py took 1.282 seconds

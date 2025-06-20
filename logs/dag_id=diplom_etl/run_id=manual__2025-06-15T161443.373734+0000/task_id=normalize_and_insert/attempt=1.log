@@ -1,0 +1,25 @@
+[2025-06-15T16:14:47.196+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-15T16:14:47.213+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: diplom_etl.normalize_and_insert manual__2025-06-15T16:14:43.373734+00:00 [queued]>
+[2025-06-15T16:14:47.218+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: diplom_etl.normalize_and_insert manual__2025-06-15T16:14:43.373734+00:00 [queued]>
+[2025-06-15T16:14:47.219+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-15T16:14:47.365+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): normalize_and_insert> on 2025-06-15 16:14:43.373734+00:00
+[2025-06-15T16:14:47.376+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=110) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-06-15T16:14:47.377+0000] {standard_task_runner.py:72} INFO - Started process 112 to run task
+[2025-06-15T16:14:47.377+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'diplom_etl', 'normalize_and_insert', 'manual__2025-06-15T16:14:43.373734+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/from_csv_to_postgre.py', '--cfg-path', '/tmp/tmp135dexw0']
+[2025-06-15T16:14:47.380+0000] {standard_task_runner.py:105} INFO - Job 42: Subtask normalize_and_insert
+[2025-06-15T16:14:47.427+0000] {task_command.py:467} INFO - Running <TaskInstance: diplom_etl.normalize_and_insert manual__2025-06-15T16:14:43.373734+00:00 [running]> on host d8fe7aa5b8f5
+[2025-06-15T16:14:47.488+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='diplom_etl' AIRFLOW_CTX_TASK_ID='normalize_and_insert' AIRFLOW_CTX_EXECUTION_DATE='2025-06-15T16:14:43.373734+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-15T16:14:43.373734+00:00'
+[2025-06-15T16:14:47.489+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-15T16:14:47.517+0000] {warnings.py:112} WARNING - /opt/***/dags/from_csv_to_postgre.py:23: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_json(raw_data, orient='records')
+
+[2025-06-15T16:14:47.546+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-06-15T16:14:47.547+0000] {base.py:84} INFO - Retrieving connection 'dwh_***'
+[2025-06-15T16:14:48.058+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-15T16:14:48.066+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-15T16:14:48.067+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=diplom_etl, task_id=normalize_and_insert, run_id=manual__2025-06-15T16:14:43.373734+00:00, execution_date=20250615T161443, start_date=20250615T161447, end_date=20250615T161448
+[2025-06-15T16:14:48.113+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-15T16:14:48.128+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-15T16:14:48.130+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

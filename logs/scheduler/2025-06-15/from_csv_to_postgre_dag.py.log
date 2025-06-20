@@ -1,0 +1,229 @@
+[2025-06-15T15:55:55.327+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:55:55.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:55:55.330+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:55:55.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:55:55.724+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:55:55.795+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:55:55.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:55:55.804+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:55:55.803+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:55:55.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.494 seconds
+[2025-06-15T15:56:25.994+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:56:25.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:56:25.996+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:56:25.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:56:26.464+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:56:26.482+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:56:26.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:56:26.491+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:56:26.491+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:56:26.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.513 seconds
+[2025-06-15T15:56:56.732+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:56:56.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:56:56.733+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:56:56.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:56:57.092+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:56:57.169+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:56:57.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:56:57.176+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:56:57.176+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:56:57.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.462 seconds
+[2025-06-15T15:57:27.360+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:57:27.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:57:27.362+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:57:27.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:57:27.742+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:57:27.758+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:57:27.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:57:27.768+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:57:27.768+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:57:27.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.425 seconds
+[2025-06-15T15:57:58.007+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:57:58.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:57:58.009+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:57:58.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:57:58.398+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:57:58.471+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:57:58.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:57:58.478+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:57:58.478+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:57:58.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.486 seconds
+[2025-06-15T15:58:28.664+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:58:28.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:58:28.666+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:58:28.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:58:29.047+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:58:29.063+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:58:29.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:58:29.073+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:58:29.072+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:58:29.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.427 seconds
+[2025-06-15T15:58:59.319+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:58:59.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:58:59.321+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:58:59.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:58:59.745+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:58:59.818+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:58:59.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:58:59.826+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:58:59.826+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:58:59.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.525 seconds
+[2025-06-15T15:59:30.007+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:59:30.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T15:59:30.009+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:59:30.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:59:30.393+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T15:59:30.410+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:59:30.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T15:59:30.419+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:59:30.419+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T15:59:30.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.430 seconds
+[2025-06-15T16:00:00.657+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:00:00.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:00:00.659+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:00:00.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:00:01.049+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:00:01.119+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:00:01.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:00:01.127+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:00:01.127+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:00:01.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.487 seconds
+[2025-06-15T16:01:15.170+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:01:15.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:01:15.176+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:01:15.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:01:16.375+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:01:16.410+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:01:16.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:01:16.420+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:01:16.420+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:01:16.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 1.272 seconds
+[2025-06-15T16:01:46.673+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:01:46.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:01:46.678+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:01:46.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:01:47.084+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:01:47.160+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:01:47.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:01:47.167+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:01:47.167+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:01:47.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.512 seconds
+[2025-06-15T16:02:57.171+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:02:57.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:02:57.174+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:02:57.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:02:58.303+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:02:58.331+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:02:58.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:02:58.342+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:02:58.342+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:02:58.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 1.190 seconds
+[2025-06-15T16:03:28.584+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:03:28.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:03:28.586+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:03:28.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:03:28.986+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:03:29.057+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:03:29.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:03:29.065+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:03:29.065+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:03:29.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.496 seconds
+[2025-06-15T16:03:59.253+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:03:59.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:03:59.257+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:03:59.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:03:59.659+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:03:59.677+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:03:59.677+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:03:59.687+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:03:59.687+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:03:59.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.451 seconds
+[2025-06-15T16:04:29.920+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:04:29.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:04:29.922+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:04:29.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:04:30.317+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:04:30.406+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:04:30.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:04:30.416+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:04:30.416+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:04:30.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.516 seconds
+[2025-06-15T16:05:01.020+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:05:01.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:05:01.024+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:05:01.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:05:01.371+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:05:01.386+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:05:01.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:05:01.395+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:05:01.395+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:05:01.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.393 seconds
+[2025-06-15T16:05:31.608+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:05:31.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:05:31.611+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:05:31.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:05:31.949+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:05:31.958+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:05:31.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:05:31.966+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:05:31.966+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:05:31.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.376 seconds
+[2025-06-15T16:06:02.170+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:06:02.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:06:02.173+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:06:02.173+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:06:02.512+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:06:02.579+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:06:02.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:06:02.587+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:06:02.586+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:06:02.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.433 seconds
+[2025-06-15T16:06:32.801+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:06:32.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:06:32.804+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:06:32.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:06:33.152+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:06:33.168+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:06:33.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:06:33.178+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:06:33.178+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:06:33.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.394 seconds
+[2025-06-15T16:07:03.246+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:07:03.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:07:03.249+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:07:03.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:07:03.641+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:07:03.651+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:07:03.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:07:03.661+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:07:03.661+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:07:03.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.431 seconds
+[2025-06-15T16:07:33.870+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:07:33.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:07:33.872+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:07:33.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:07:34.226+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:07:34.300+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:07:34.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:07:34.308+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:07:34.308+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:07:34.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.457 seconds
+[2025-06-15T16:08:04.478+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:08:04.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:08:04.481+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:08:04.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:08:04.818+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:08:04.834+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:08:04.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:08:04.844+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:08:04.844+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:08:04.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.383 seconds
+[2025-06-15T16:08:35.026+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:08:35.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:08:35.029+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:08:35.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:08:35.372+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:08:35.382+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:08:35.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:08:35.392+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:08:35.392+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:08:35.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.384 seconds
+[2025-06-15T16:09:05.613+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:09:05.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:09:05.616+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:09:05.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:09:05.974+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:09:06.044+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:09:06.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:09:06.052+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:09:06.052+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:09:06.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.457 seconds
+[2025-06-15T16:09:36.240+0000] {processor.py:186} INFO - Started process (PID=235) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:09:36.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:09:36.243+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:09:36.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:09:36.592+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:09:36.609+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:09:36.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:09:36.618+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:09:36.618+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:09:36.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.395 seconds
+[2025-06-15T16:10:06.843+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:10:06.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:10:06.846+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:10:06.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:10:07.178+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:10:07.187+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:10:07.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:10:07.196+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:10:07.195+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:10:07.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.368 seconds
+[2025-06-15T16:10:37.416+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:10:37.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:10:37.419+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:10:37.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:10:37.773+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:10:37.846+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:10:37.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:10:37.854+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:10:37.853+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:10:37.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.454 seconds
+[2025-06-15T16:11:08.052+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:11:08.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:11:08.055+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:11:08.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:11:08.422+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:11:08.439+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:11:08.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:11:08.448+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:11:08.448+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:11:08.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.414 seconds
+[2025-06-15T16:11:38.676+0000] {processor.py:186} INFO - Started process (PID=275) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:11:38.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:11:38.679+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:11:38.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:11:39.024+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:11:39.033+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:11:39.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:11:39.042+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:11:39.042+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:11:39.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.384 seconds
+[2025-06-15T16:12:09.276+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:12:09.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:12:09.279+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:12:09.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:12:09.626+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:12:09.696+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:12:09.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:12:09.703+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:12:09.702+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:12:09.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.443 seconds
+[2025-06-15T16:12:39.877+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:12:39.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:12:39.880+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:12:39.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:12:40.230+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:12:40.248+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:12:40.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:12:40.255+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:12:40.255+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:12:40.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.397 seconds
+[2025-06-15T16:13:45.435+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:13:45.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:13:45.438+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:13:45.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:13:46.529+0000] {processor.py:925} INFO - DAG(s) 'diplom_etl' retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:13:46.718+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:13:46.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-15T16:13:46.727+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:13:46.727+0000] {dag.py:4180} INFO - Setting next_dagrun for diplom_etl to None, run_after=None
+[2025-06-15T16:13:46.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 1.312 seconds
+[2025-06-15T16:14:29.642+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:14:29.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from_csv_to_postgre_dag.py for tasks to queue
+[2025-06-15T16:14:29.645+0000] {logging_mixin.py:190} INFO - [2025-06-15T16:14:29.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:14:29.646+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from_csv_to_postgre_dag.py
+[2025-06-15T16:14:29.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from_csv_to_postgre_dag.py took 0.019 seconds

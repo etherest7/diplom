@@ -1,0 +1,256 @@
+2025-06-19 22:06:50.999 +0300 (,,,,,) main : INFO  com.tableau.connect.ProtocolServerMain - Protocol Server starting.
+2025-06-19 22:06:50.999 +0300 (,,,,,) main : INFO  com.tableau.connect.ProtocolServerMain - Starting HeartBeatTask to check for parent exit.
+2025-06-19 22:06:51.000 +0300 (,,,,,) main : INFO  com.tableau.connect.ProtocolServerMain - Running secured. Authentication will be required.
+2025-06-19 22:06:51.047 +0300 (,,,,,) main : INFO  io.micrometer.core.instrument.logging.LoggingMeterRegistry - publishing metrics to logs every 5m
+2025-06-19 22:06:51.422 +0300 (,,,,,) main : INFO  com.tableau.connect.grpc.GrpcProtocolServer - Grpc started, listening on 65354.
+2025-06-19 22:06:51.422 +0300 (,,,,,) main : INFO  com.tableau.connect.grpc.GrpcProtocolServer - Protocol Server InetAddress HostAddress=192.168.31.95 , CanonicalHostName=host.docker.internal , HostName=ether
+2025-06-19 22:06:51.424 +0300 (,,,,,) main : INFO  com.tableau.connect.grpc.GrpcProtocolServer - Wrote endpoint to file C:/Users/ether/AppData/Local/Temp/TableauTemp/TEMP_0sxjnn31x9buyp181fb1y1r5oxym.tmp
+2025-06-19 22:06:51.886 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 1 /constructProtocol.
+2025-06-19 22:06:51.899 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Loading drivers from classpath.
+2025-06-19 22:06:51.900 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Loading isolated drivers from ;C:/Program Files/Tableau/Drivers/clickhouse-jdbc-0.3.1-shaded.jar
+2025-06-19 22:06:51.901 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Created classloader for file:/C:/Program%20Files/Tableau/Drivers/clickhouse-jdbc-0.3.1-shaded.jar
+2025-06-19 22:06:51.912 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Loaded ru.yandex.clickhouse.ClickHouseDriver from file:/C:/Program%20Files/Tableau/Drivers/clickhouse-jdbc-0.3.1-shaded.jar
+2025-06-19 22:06:51.914 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.StubDriver - Registered StubDriver.
+2025-06-19 22:06:51.915 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Get driver from isolatedDrivers.
+2025-06-19 22:06:51.917 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connecting to jdbc:clickhouse://0.0.0.0:8123/?custom_http_params=join_use_nulls%3D1%2Csession_id%3Dtableau-jdbc-connector-1750360010379-70021561&typeMappings=UInt64%3Djava.lang.String%2CUInt128%3Djava.lang.String%2CInt128%3Djava.lang.String%2CUInt256%3Djava.lang.String%2CInt256%3Djava.lang.String
+2025-06-19 22:06:51.917 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connection properties {password=*******, user=default}
+2025-06-19 22:06:52.064 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Connected using driver {ru.yandex.clickhouse.ClickHouseDriver} from isolatedDriver.
+2025-06-19 22:06:52.067 +0300 (,,,,,1) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 1 /constructProtocol.
+2025-06-19 22:06:52.070 +0300 (,,,,,2) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 2 /setCapability.
+2025-06-19 22:06:52.070 +0300 (,,,,,2) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 2 /setCapability.
+2025-06-19 22:06:52.072 +0300 (,,,,,3) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 3 /setCapability.
+2025-06-19 22:06:52.072 +0300 (,,,,,3) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 3 /setCapability.
+2025-06-19 22:06:52.073 +0300 (,,,,,4) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 4 /setCapability.
+2025-06-19 22:06:52.073 +0300 (,,,,,4) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 4 /setCapability.
+2025-06-19 22:06:52.075 +0300 (,,,,,5) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 5 /setCapability.
+2025-06-19 22:06:52.075 +0300 (,,,,,5) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 5 /setCapability.
+2025-06-19 22:06:52.076 +0300 (,,,,,6) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 6 /setCapability.
+2025-06-19 22:06:52.076 +0300 (,,,,,6) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 6 /setCapability.
+2025-06-19 22:06:52.079 +0300 (,,,,,7) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 7 /setCapability.
+2025-06-19 22:06:52.079 +0300 (,,,,,7) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 7 /setCapability.
+2025-06-19 22:06:52.080 +0300 (,,,,,8) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 8 /setCapability.
+2025-06-19 22:06:52.080 +0300 (,,,,,8) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 8 /setCapability.
+2025-06-19 22:06:52.084 +0300 (,,,,,9) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 9 /setCapability.
+2025-06-19 22:06:52.084 +0300 (,,,,,9) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 9 /setCapability.
+2025-06-19 22:06:52.094 +0300 (,,,,,10) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 10 /readTableMetadata.
+2025-06-19 22:06:52.111 +0300 (,,,,,10) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 10 /readTableMetadata.
+2025-06-19 22:06:52.113 +0300 (,,,,,11) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 11 /readKeys.
+2025-06-19 22:06:52.124 +0300 (,,,,,11) grpc-default-executor-0 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='some', columnTypeName='String', columnLabel='some', columnType=12, precision=0, scale=0, columnDisplaySize=80, protobufType=STRING, nullable=noNulls}
+2025-06-19 22:06:52.125 +0300 (,,,,,11) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 11 /readKeys.
+2025-06-19 22:06:52.127 +0300 (,,,,,12) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 12 /readKeys.
+2025-06-19 22:06:52.128 +0300 (,,,,,12) grpc-default-executor-0 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='some', columnTypeName='String', columnLabel='some', columnType=12, precision=0, scale=0, columnDisplaySize=80, protobufType=STRING, nullable=noNulls}
+2025-06-19 22:06:52.128 +0300 (,,,,,12) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 12 /readKeys.
+2025-06-19 22:06:52.957 +0300 (,,,,,13) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 13 /runQuery.
+2025-06-19 22:06:52.957 +0300 (,,,,,13) grpc-default-executor-0 : INFO  com.tableausoftware.util.LogHelpers - Running query 146772142
+2025-06-19 22:06:52.958 +0300 (,,,,1,16) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 16 /constructProtocol.
+2025-06-19 22:06:52.958 +0300 (,,,,1,16) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Get driver from isolatedDrivers.
+2025-06-19 22:06:52.958 +0300 (,,,,1,16) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connecting to jdbc:clickhouse://0.0.0.0:8123/?custom_http_params=join_use_nulls%3D1%2Csession_id%3Dtableau-jdbc-connector-1750360012949-85445451&typeMappings=UInt64%3Djava.lang.String%2CUInt128%3Djava.lang.String%2CInt128%3Djava.lang.String%2CUInt256%3Djava.lang.String%2CInt256%3Djava.lang.String
+2025-06-19 22:06:52.958 +0300 (,,,,1,16) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connection properties {password=*******, user=default}
+2025-06-19 22:06:52.958 +0300 (,,,,,13) grpc-default-executor-0 : INFO  com.tableausoftware.util.LogHelpers - Qurantine {00000000-0000-0000-0000-000000000000}. Running query 
+   SELECT min("sales_mart"."datetime") AS "lower:none:datetime:qk",
+     max("sales_mart"."datetime") AS "upper:none:datetime:qk"
+   FROM "data_mart"."sales_mart" "sales_mart"
+2025-06-19 22:06:52.961 +0300 (,,,,2,18) grpc-default-executor-2 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 18 /constructProtocol.
+2025-06-19 22:06:52.961 +0300 (,,,,2,18) grpc-default-executor-2 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Get driver from isolatedDrivers.
+2025-06-19 22:06:52.961 +0300 (,,,,2,18) grpc-default-executor-2 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connecting to jdbc:clickhouse://0.0.0.0:8123/?custom_http_params=join_use_nulls%3D1%2Csession_id%3Dtableau-jdbc-connector-1750360012949-54175161&typeMappings=UInt64%3Djava.lang.String%2CUInt128%3Djava.lang.String%2CInt128%3Djava.lang.String%2CUInt256%3Djava.lang.String%2CInt256%3Djava.lang.String
+2025-06-19 22:06:52.961 +0300 (,,,,2,18) grpc-default-executor-2 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connection properties {password=*******, user=default}
+2025-06-19 22:06:52.963 +0300 (,,,,,13) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 13 /runQuery.
+2025-06-19 22:06:52.965 +0300 (,,,,3,20) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 20 /constructProtocol.
+2025-06-19 22:06:52.965 +0300 (,,,,3,20) grpc-default-executor-4 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Get driver from isolatedDrivers.
+2025-06-19 22:06:52.965 +0300 (,,,,3,20) grpc-default-executor-4 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connecting to jdbc:clickhouse://0.0.0.0:8123/?custom_http_params=join_use_nulls%3D1%2Csession_id%3Dtableau-jdbc-connector-1750360012950-83966071&typeMappings=UInt64%3Djava.lang.String%2CUInt128%3Djava.lang.String%2CInt128%3Djava.lang.String%2CUInt256%3Djava.lang.String%2CInt256%3Djava.lang.String
+2025-06-19 22:06:52.965 +0300 (,,,,3,20) grpc-default-executor-4 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connection properties {password=*******, user=default}
+2025-06-19 22:06:52.965 +0300 (,,,,4,21) grpc-default-executor-3 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 21 /constructProtocol.
+2025-06-19 22:06:52.965 +0300 (,,,,4,21) grpc-default-executor-3 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Get driver from isolatedDrivers.
+2025-06-19 22:06:52.965 +0300 (,,,,4,21) grpc-default-executor-3 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connecting to jdbc:clickhouse://0.0.0.0:8123/?custom_http_params=join_use_nulls%3D1%2Csession_id%3Dtableau-jdbc-connector-1750360012950-26008451&typeMappings=UInt64%3Djava.lang.String%2CUInt128%3Djava.lang.String%2CInt128%3Djava.lang.String%2CUInt256%3Djava.lang.String%2CInt256%3Djava.lang.String
+2025-06-19 22:06:52.967 +0300 (,,,,4,21) grpc-default-executor-3 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Connection properties {password=*******, user=default}
+2025-06-19 22:06:52.973 +0300 (,,,,1,16) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Connected using driver {ru.yandex.clickhouse.ClickHouseDriver} from isolatedDriver.
+2025-06-19 22:06:52.973 +0300 (,,,,1,16) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 16 /constructProtocol.
+2025-06-19 22:06:52.976 +0300 (,,,,1,23) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 23 /setCapability.
+2025-06-19 22:06:52.976 +0300 (,,,,1,23) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 23 /setCapability.
+2025-06-19 22:06:52.976 +0300 (,,,,,13) pool-3-thread-1 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting max result buffer size to 322122547 bytes, 30% of the max heap size.
+2025-06-19 22:06:52.976 +0300 (,,,,,13) pool-3-thread-1 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting adaptive fetch size to 2000.
+2025-06-19 22:06:52.976 +0300 (,,,,,13) pool-3-thread-1 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='lower:none:datetime:qk', columnTypeName='DateTime', columnLabel='lower:none:datetime:qk', columnType=93, precision=19, scale=0, columnDisplaySize=80, protobufType=TIMESTAMP, nullable=noNulls}
+2025-06-19 22:06:52.976 +0300 (,,,,,13) pool-3-thread-1 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='upper:none:datetime:qk', columnTypeName='DateTime', columnLabel='upper:none:datetime:qk', columnType=93, precision=19, scale=0, columnDisplaySize=80, protobufType=TIMESTAMP, nullable=noNulls}
+2025-06-19 22:06:52.977 +0300 (,,,,1,24) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 24 /setCapability.
+2025-06-19 22:06:52.978 +0300 (,,,,1,24) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 24 /setCapability.
+2025-06-19 22:06:52.979 +0300 (,,,,1,25) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 25 /setCapability.
+2025-06-19 22:06:52.979 +0300 (,,,,,13) pool-3-thread-1 : INFO  com.tableau.connect.service.QueryTask - Query task for protocol 0 completed.
+2025-06-19 22:06:52.979 +0300 (,,,,1,25) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 25 /setCapability.
+2025-06-19 22:06:52.981 +0300 (,,,,1,26) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 26 /setCapability.
+2025-06-19 22:06:52.982 +0300 (,,,,1,26) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 26 /setCapability.
+2025-06-19 22:06:52.982 +0300 (,,,,4,21) grpc-default-executor-3 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Connected using driver {ru.yandex.clickhouse.ClickHouseDriver} from isolatedDriver.
+2025-06-19 22:06:52.982 +0300 (,,,,4,21) grpc-default-executor-3 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 21 /constructProtocol.
+2025-06-19 22:06:52.984 +0300 (,,,,4,28) grpc-default-executor-3 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 28 /setCapability.
+2025-06-19 22:06:52.984 +0300 (,,,,1,27) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 27 /setCapability.
+2025-06-19 22:06:52.984 +0300 (,,,,1,27) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 27 /setCapability.
+2025-06-19 22:06:52.984 +0300 (,,,,4,28) grpc-default-executor-3 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 28 /setCapability.
+2025-06-19 22:06:52.986 +0300 (,,,,,29) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 29 /closeQuery.
+2025-06-19 22:06:52.986 +0300 (,,,,2,18) grpc-default-executor-2 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Connected using driver {ru.yandex.clickhouse.ClickHouseDriver} from isolatedDriver.
+2025-06-19 22:06:52.986 +0300 (,,,,1,31) grpc-default-executor-3 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 31 /setCapability.
+2025-06-19 22:06:52.986 +0300 (,,,,4,30) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 30 /setCapability.
+2025-06-19 22:06:52.986 +0300 (,,,,2,18) grpc-default-executor-2 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 18 /constructProtocol.
+2025-06-19 22:06:52.986 +0300 (,,,,1,31) grpc-default-executor-3 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 31 /setCapability.
+2025-06-19 22:06:52.986 +0300 (,,,,,29) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 29 /closeQuery.
+2025-06-19 22:06:52.986 +0300 (,,,,3,20) grpc-default-executor-4 : INFO  com.tableausoftware.jdbc.JDBCDriverManager - Connected using driver {ru.yandex.clickhouse.ClickHouseDriver} from isolatedDriver.
+2025-06-19 22:06:52.987 +0300 (,,,,4,30) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 30 /setCapability.
+2025-06-19 22:06:52.987 +0300 (,,,,3,20) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 20 /constructProtocol.
+2025-06-19 22:06:52.989 +0300 (,,,,2,34) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 34 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,1,33) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 33 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,4,32) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 32 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,2,34) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 34 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,4,32) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 32 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,1,33) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 33 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,3,35) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 35 /setCapability.
+2025-06-19 22:06:52.989 +0300 (,,,,3,35) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 35 /setCapability.
+2025-06-19 22:06:52.990 +0300 (,,,,4,36) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 36 /setCapability.
+2025-06-19 22:06:52.990 +0300 (,,,,2,37) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 37 /setCapability.
+2025-06-19 22:06:52.991 +0300 (,,,,2,37) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 37 /setCapability.
+2025-06-19 22:06:52.991 +0300 (,,,,4,36) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 36 /setCapability.
+2025-06-19 22:06:52.991 +0300 (,,,,1,38) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 38 /setCapability.
+2025-06-19 22:06:52.991 +0300 (,,,,3,39) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 39 /setCapability.
+2025-06-19 22:06:52.992 +0300 (,,,,3,39) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 39 /setCapability.
+2025-06-19 22:06:52.992 +0300 (,,,,1,38) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 38 /setCapability.
+2025-06-19 22:06:52.992 +0300 (,,,,4,40) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 40 /setCapability.
+2025-06-19 22:06:52.993 +0300 (,,,,2,41) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 41 /setCapability.
+2025-06-19 22:06:52.993 +0300 (,,,,4,40) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 40 /setCapability.
+2025-06-19 22:06:52.993 +0300 (,,,,2,41) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 41 /setCapability.
+2025-06-19 22:06:52.994 +0300 (,,,,3,42) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 42 /setCapability.
+2025-06-19 22:06:52.994 +0300 (,,,,3,42) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 42 /setCapability.
+2025-06-19 22:06:52.994 +0300 (,,,,4,43) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 43 /setCapability.
+2025-06-19 22:06:52.995 +0300 (,,,,2,44) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 44 /setCapability.
+2025-06-19 22:06:52.995 +0300 (,,,,4,43) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 43 /setCapability.
+2025-06-19 22:06:52.995 +0300 (,,,,2,44) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 44 /setCapability.
+2025-06-19 22:06:52.995 +0300 (,,,,3,45) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 45 /setCapability.
+2025-06-19 22:06:52.996 +0300 (,,,,3,45) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 45 /setCapability.
+2025-06-19 22:06:52.996 +0300 (,,,,4,46) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 46 /setCapability.
+2025-06-19 22:06:52.996 +0300 (,,,,2,47) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 47 /setCapability.
+2025-06-19 22:06:52.996 +0300 (,,,,2,47) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 47 /setCapability.
+2025-06-19 22:06:52.996 +0300 (,,,,4,46) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 46 /setCapability.
+2025-06-19 22:06:52.997 +0300 (,,,,3,48) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 48 /setCapability.
+2025-06-19 22:06:52.998 +0300 (,,,,3,48) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 48 /setCapability.
+2025-06-19 22:06:52.998 +0300 (,,,,2,49) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 49 /setCapability.
+2025-06-19 22:06:52.998 +0300 (,,,,2,49) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 49 /setCapability.
+2025-06-19 22:06:52.999 +0300 (,,,,4,50) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 50 /setCapability.
+2025-06-19 22:06:52.999 +0300 (,,,,1,51) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 51 /runQuery.
+2025-06-19 22:06:52.999 +0300 (,,,,1,51) grpc-default-executor-1 : INFO  com.tableausoftware.util.LogHelpers - Running query 1037042336
+2025-06-19 22:06:52.999 +0300 (,,,,4,50) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 50 /setCapability.
+2025-06-19 22:06:52.999 +0300 (,,,,1,51) grpc-default-executor-1 : INFO  com.tableausoftware.util.LogHelpers - Qurantine {00000000-0000-0000-0000-000000000000}. Running query 
+   SELECT "sales_mart"."product_line" AS "product_line",
+     sum(1) AS "usr:Calculation_2255740485658423296:ok",
+     sum("sales_mart"."total") AS "usr:Calculation_2255740485661429762:ok"
+   FROM "data_mart"."sales_mart" "sales_mart"
+   WHERE (("sales_mart"."datetime" >= TIMESTAMP '2019-01-01 10:39:00') AND ("sales_mart"."datetime" <= TIMESTAMP '2025-06-19 20:37:00'))
+   GROUP BY "product_line"
+2025-06-19 22:06:52.999 +0300 (,,,,1,51) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 51 /runQuery.
+2025-06-19 22:06:53.000 +0300 (,,,,2,53) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 53 /setCapability.
+2025-06-19 22:06:53.000 +0300 (,,,,3,52) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 52 /setCapability.
+2025-06-19 22:06:53.000 +0300 (,,,,2,53) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 53 /setCapability.
+2025-06-19 22:06:53.000 +0300 (,,,,3,52) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 52 /setCapability.
+2025-06-19 22:06:53.003 +0300 (,,,,3,55) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 55 /setCapability.
+2025-06-19 22:06:53.003 +0300 (,,,,2,56) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 56 /setCapability.
+2025-06-19 22:06:53.003 +0300 (,,,,2,56) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 56 /setCapability.
+2025-06-19 22:06:53.003 +0300 (,,,,3,55) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 55 /setCapability.
+2025-06-19 22:06:53.006 +0300 (,,,,4,57) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 57 /runQuery.
+2025-06-19 22:06:53.006 +0300 (,,,,3,58) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 58 /setCapability.
+2025-06-19 22:06:53.006 +0300 (,,,,4,57) grpc-default-executor-0 : INFO  com.tableausoftware.util.LogHelpers - Running query 4126413765
+2025-06-19 22:06:53.006 +0300 (,,,,4,57) grpc-default-executor-0 : INFO  com.tableausoftware.util.LogHelpers - Qurantine {00000000-0000-0000-0000-000000000000}. Running query 
+   SELECT toStartOfInterval("sales_mart"."datetime", INTERVAL 1 month) AS "tmn:datetime:ok",
+     sum("sales_mart"."total") AS "usr:Calculation_2255740485661429762:ok"
+   FROM "data_mart"."sales_mart" "sales_mart"
+   WHERE (("sales_mart"."datetime" >= TIMESTAMP '2019-01-01 10:39:00') AND ("sales_mart"."datetime" <= TIMESTAMP '2025-06-19 20:37:00'))
+   GROUP BY "tmn:datetime:ok"
+2025-06-19 22:06:53.006 +0300 (,,,,3,58) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 58 /setCapability.
+2025-06-19 22:06:53.006 +0300 (,,,,4,57) grpc-default-executor-0 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 57 /runQuery.
+2025-06-19 22:06:53.008 +0300 (,,,,2,60) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 60 /runQuery.
+2025-06-19 22:06:53.008 +0300 (,,,,2,60) grpc-default-executor-4 : INFO  com.tableausoftware.util.LogHelpers - Running query 5148572
+2025-06-19 22:06:53.008 +0300 (,,,,2,60) grpc-default-executor-4 : INFO  com.tableausoftware.util.LogHelpers - Qurantine {00000000-0000-0000-0000-000000000000}. Running query 
+   SELECT sum(1) AS "TEMP(Calculation_2255740485662363651)(227475164)(0)",
+     sum("sales_mart"."rating") AS "TEMP(Calculation_2255740485662363651)(2755839802)(0)",
+     "sales_mart"."branch" AS "branch",
+     "sales_mart"."city_name" AS "city_name",
+     sum("sales_mart"."total") AS "usr:Calculation_2255740485661429762:ok",
+     sum("sales_mart"."quantity") AS "usr:Calculation_2255740485663694852:ok"
+   FROM "data_mart"."sales_mart" "sales_mart"
+   WHERE (("sales_mart"."datetime" >= TIMESTAMP '2019-01-01 10:39:00') AND ("sales_mart"."datetime" <= TIMESTAMP '2025-06-19 20:37:00'))
+   GROUP BY "branch",
+     "city_name"
+2025-06-19 22:06:53.008 +0300 (,,,,2,60) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 60 /runQuery.
+2025-06-19 22:06:53.010 +0300 (,,,,3,62) grpc-default-executor-2 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 62 /runQuery.
+2025-06-19 22:06:53.011 +0300 (,,,,3,62) grpc-default-executor-2 : INFO  com.tableausoftware.util.LogHelpers - Running query 265963781
+2025-06-19 22:06:53.011 +0300 (,,,,3,62) grpc-default-executor-2 : INFO  com.tableausoftware.util.LogHelpers - Qurantine {00000000-0000-0000-0000-000000000000}. Running query 
+   SELECT sum(1) AS "TEMP(Calculation_2255740485662363651)(227475164)(0)",
+     sum("sales_mart"."rating") AS "TEMP(Calculation_2255740485662363651)(2755839802)(0)",
+     sum("sales_mart"."total") AS "usr:Calculation_2255740485661429762:ok",
+     sum("sales_mart"."quantity") AS "usr:Calculation_2255740485663694852:ok",
+     1.1000000000000001 AS "$__alias__0"
+   FROM "data_mart"."sales_mart" "sales_mart"
+   WHERE (("sales_mart"."datetime" >= TIMESTAMP '2019-01-01 10:39:00') AND ("sales_mart"."datetime" <= TIMESTAMP '2025-06-19 20:37:00'))
+   GROUP BY 1.1000000000000001
+2025-06-19 22:06:53.011 +0300 (,,,,3,62) grpc-default-executor-2 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 62 /runQuery.
+2025-06-19 22:06:53.017 +0300 (,,,,1,51) pool-3-thread-1 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting max result buffer size to 322122547 bytes, 30% of the max heap size.
+2025-06-19 22:06:53.017 +0300 (,,,,1,51) pool-3-thread-1 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting adaptive fetch size to 2000.
+2025-06-19 22:06:53.017 +0300 (,,,,1,51) pool-3-thread-1 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='product_line', columnTypeName='String', columnLabel='product_line', columnType=12, precision=0, scale=0, columnDisplaySize=80, protobufType=STRING, nullable=noNulls}
+2025-06-19 22:06:53.017 +0300 (,,,,1,51) pool-3-thread-1 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485658423296:ok', columnTypeName='UInt64', columnLabel='usr:Calculation_2255740485658423296:ok', columnType=-5, precision=19, scale=0, columnDisplaySize=80, protobufType=LONG, nullable=noNulls}
+2025-06-19 22:06:53.017 +0300 (,,,,1,51) pool-3-thread-1 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485661429762:ok', columnTypeName='Decimal(38, 2)', columnLabel='usr:Calculation_2255740485661429762:ok', columnType=3, precision=38, scale=2, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.018 +0300 (,,,,1,51) pool-3-thread-1 : INFO  com.tableau.connect.service.QueryTask - Query task for protocol 1 completed.
+2025-06-19 22:06:53.020 +0300 (,,,,4,57) pool-3-thread-2 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting max result buffer size to 322122547 bytes, 30% of the max heap size.
+2025-06-19 22:06:53.020 +0300 (,,,,4,57) pool-3-thread-2 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting adaptive fetch size to 2000.
+2025-06-19 22:06:53.020 +0300 (,,,,4,57) pool-3-thread-2 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='tmn:datetime:ok', columnTypeName='Date', columnLabel='tmn:datetime:ok', columnType=91, precision=10, scale=0, columnDisplaySize=80, protobufType=DATE, nullable=noNulls}
+2025-06-19 22:06:53.020 +0300 (,,,,4,57) pool-3-thread-2 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485661429762:ok', columnTypeName='Decimal(38, 2)', columnLabel='usr:Calculation_2255740485661429762:ok', columnType=3, precision=38, scale=2, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,4,57) pool-3-thread-2 : INFO  com.tableau.connect.service.QueryTask - Query task for protocol 4 completed.
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting max result buffer size to 322122547 bytes, 30% of the max heap size.
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting adaptive fetch size to 2000.
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='TEMP(Calculation_2255740485662363651)(227475164)(0)', columnTypeName='UInt64', columnLabel='TEMP(Calculation_2255740485662363651)(227475164)(0)', columnType=-5, precision=19, scale=0, columnDisplaySize=80, protobufType=LONG, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='TEMP(Calculation_2255740485662363651)(2755839802)(0)', columnTypeName='Decimal(38, 1)', columnLabel='TEMP(Calculation_2255740485662363651)(2755839802)(0)', columnType=3, precision=38, scale=1, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='branch', columnTypeName='String', columnLabel='branch', columnType=12, precision=0, scale=0, columnDisplaySize=80, protobufType=STRING, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='city_name', columnTypeName='String', columnLabel='city_name', columnType=12, precision=0, scale=0, columnDisplaySize=80, protobufType=STRING, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485661429762:ok', columnTypeName='Decimal(38, 2)', columnLabel='usr:Calculation_2255740485661429762:ok', columnType=3, precision=38, scale=2, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485663694852:ok', columnTypeName='Int64', columnLabel='usr:Calculation_2255740485663694852:ok', columnType=-5, precision=20, scale=0, columnDisplaySize=80, protobufType=LONG, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,1,64) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 64 /closeQuery.
+2025-06-19 22:06:53.024 +0300 (,,,,2,60) pool-3-thread-3 : INFO  com.tableau.connect.service.QueryTask - Query task for protocol 2 completed.
+2025-06-19 22:06:53.024 +0300 (,,,,1,64) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 64 /closeQuery.
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting max result buffer size to 322122547 bytes, 30% of the max heap size.
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting adaptive fetch size to 2000.
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='TEMP(Calculation_2255740485662363651)(227475164)(0)', columnTypeName='UInt64', columnLabel='TEMP(Calculation_2255740485662363651)(227475164)(0)', columnType=-5, precision=19, scale=0, columnDisplaySize=80, protobufType=LONG, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='TEMP(Calculation_2255740485662363651)(2755839802)(0)', columnTypeName='Decimal(38, 1)', columnLabel='TEMP(Calculation_2255740485662363651)(2755839802)(0)', columnType=3, precision=38, scale=1, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485661429762:ok', columnTypeName='Decimal(38, 2)', columnLabel='usr:Calculation_2255740485661429762:ok', columnType=3, precision=38, scale=2, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485663694852:ok', columnTypeName='Int64', columnLabel='usr:Calculation_2255740485663694852:ok', columnType=-5, precision=20, scale=0, columnDisplaySize=80, protobufType=LONG, nullable=noNulls}
+2025-06-19 22:06:53.024 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='$__alias__0', columnTypeName='Float64', columnLabel='$__alias__0', columnType=8, precision=17, scale=17, columnDisplaySize=80, protobufType=DOUBLE, nullable=noNulls}
+2025-06-19 22:06:53.025 +0300 (,,,,3,62) pool-3-thread-4 : INFO  com.tableau.connect.service.QueryTask - Query task for protocol 3 completed.
+2025-06-19 22:06:53.027 +0300 (,,,,2,66) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 66 /closeQuery.
+2025-06-19 22:06:53.027 +0300 (,,,,4,65) grpc-default-executor-2 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 65 /closeQuery.
+2025-06-19 22:06:53.027 +0300 (,,,,4,65) grpc-default-executor-2 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 65 /closeQuery.
+2025-06-19 22:06:53.027 +0300 (,,,,2,66) grpc-default-executor-4 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 66 /closeQuery.
+2025-06-19 22:06:53.027 +0300 (,,,,3,67) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 67 /closeQuery.
+2025-06-19 22:06:53.028 +0300 (,,,,3,67) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 67 /closeQuery.
+2025-06-19 22:06:53.211 +0300 (,,,,3,68) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 68 /runQuery.
+2025-06-19 22:06:53.211 +0300 (,,,,3,68) grpc-default-executor-1 : INFO  com.tableausoftware.util.LogHelpers - Running query 1755744619
+2025-06-19 22:06:53.211 +0300 (,,,,3,68) grpc-default-executor-1 : INFO  com.tableausoftware.util.LogHelpers - Qurantine {00000000-0000-0000-0000-000000000000}. Running query 
+   SELECT "sales_mart"."branch" AS "branch",
+     sum("sales_mart"."total") AS "usr:Calculation_2255740485661429762:ok"
+   FROM "data_mart"."sales_mart" "sales_mart"
+   WHERE (("sales_mart"."datetime" >= TIMESTAMP '2019-01-01 10:39:00') AND ("sales_mart"."datetime" <= TIMESTAMP '2025-06-19 20:37:00'))
+   GROUP BY "branch"
+2025-06-19 22:06:53.211 +0300 (,,,,3,68) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 68 /runQuery.
+2025-06-19 22:06:53.220 +0300 (,,,,3,68) pool-3-thread-4 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting max result buffer size to 322122547 bytes, 30% of the max heap size.
+2025-06-19 22:06:53.220 +0300 (,,,,3,68) pool-3-thread-4 : INFO  com.tableausoftware.jdbc.FetchSizeHelpers - Setting adaptive fetch size to 2000.
+2025-06-19 22:06:53.220 +0300 (,,,,3,68) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='branch', columnTypeName='String', columnLabel='branch', columnType=12, precision=0, scale=0, columnDisplaySize=80, protobufType=STRING, nullable=noNulls}
+2025-06-19 22:06:53.220 +0300 (,,,,3,68) pool-3-thread-4 : INFO  com.tableausoftware.data.ProtobufJDBCResultSet - BindingInfo{columnName='usr:Calculation_2255740485661429762:ok', columnTypeName='Decimal(38, 2)', columnLabel='usr:Calculation_2255740485661429762:ok', columnType=3, precision=38, scale=2, columnDisplaySize=80, protobufType=DECIMAL, nullable=noNulls}
+2025-06-19 22:06:53.221 +0300 (,,,,3,68) pool-3-thread-4 : INFO  com.tableau.connect.service.QueryTask - Query task for protocol 3 completed.
+2025-06-19 22:06:53.222 +0300 (,,,,3,70) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 70 /closeQuery.
+2025-06-19 22:06:53.223 +0300 (,,,,3,70) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 70 /closeQuery.
+2025-06-19 22:07:07.209 +0300 (,,,,4,71) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 71 /closeProtocol.
+2025-06-19 22:07:07.209 +0300 (,,,,4,71) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Closing connection 4.
+2025-06-19 22:07:07.211 +0300 (,,,,4,71) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 71 /closeProtocol.
+2025-06-19 22:07:07.212 +0300 (,,,,,72) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 72 /closeProtocol.
+2025-06-19 22:07:07.212 +0300 (,,,,,72) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Closing connection 0.
+2025-06-19 22:07:07.212 +0300 (,,,,,72) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 72 /closeProtocol.
+2025-06-19 22:07:07.214 +0300 (,,,,2,73) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 73 /closeProtocol.
+2025-06-19 22:07:07.214 +0300 (,,,,2,73) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Closing connection 2.
+2025-06-19 22:07:07.214 +0300 (,,,,2,73) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 73 /closeProtocol.
+2025-06-19 22:07:07.215 +0300 (,,,,3,74) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 74 /closeProtocol.
+2025-06-19 22:07:07.215 +0300 (,,,,3,74) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Closing connection 3.
+2025-06-19 22:07:07.215 +0300 (,,,,3,74) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 74 /closeProtocol.
+2025-06-19 22:07:07.216 +0300 (,,,,1,75) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - Start local request 75 /closeProtocol.
+2025-06-19 22:07:07.216 +0300 (,,,,1,75) grpc-default-executor-1 : INFO  com.tableausoftware.jdbc.JDBCProtocolImpl - Closing connection 1.
+2025-06-19 22:07:07.216 +0300 (,,,,1,75) grpc-default-executor-1 : INFO  com.tableau.connect.grpc.GrpcProtocolService - End local request 75 /closeProtocol.
